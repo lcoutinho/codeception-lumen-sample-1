@@ -1,0 +1,31 @@
+{
+    "name": "incube8/codeception-lumen-sample",
+    "description": "Sample app for working with Codeception under Lumen.",
+    "keywords": ["framework", "laravel", "lumen", "test", "testing", "codeception"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "laravel/lumen-framework": "5.0.*",
+        "vlucas/phpdotenv": "~1.0"
+    },
+    "require-dev": {
+        "codeception/codeception": "2.0.*@dev",
+        "incube8/codeception-lumen": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "classmap": [
+            "database/"
+        ]
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}

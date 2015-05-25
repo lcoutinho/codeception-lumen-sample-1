@@ -1,0 +1,7 @@
+/lumen.log
+/vendor
+.env
+.directory
+.idea
+
+tests/_output/*
