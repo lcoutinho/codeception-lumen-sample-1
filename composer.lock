@@ -2288,12 +2288,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codeception/Codeception.git",
-                "reference": "486aa356a57c911e52f0d1dc20b4ce50b41d4a26"
+                "reference": "86b9ddfdd8c641d5b63a8924cfbe353a764fcf8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/486aa356a57c911e52f0d1dc20b4ce50b41d4a26",
-                "reference": "486aa356a57c911e52f0d1dc20b4ce50b41d4a26",
+                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/86b9ddfdd8c641d5b63a8924cfbe353a764fcf8f",
+                "reference": "86b9ddfdd8c641d5b63a8924cfbe353a764fcf8f",
                 "shasum": ""
             },
             "require": {
@@ -2360,7 +2360,7 @@
                 "functional testing",
                 "unit testing"
             ],
-            "time": "2015-05-23 00:01:49"
+            "time": "2015-05-26 00:38:49"
         },
         {
             "name": "doctrine/instantiator",
@@ -2622,12 +2622,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/incube8/codeception-lumen.git",
-                "reference": "ac2988a65582a4ff4f34a70a46004595f1f2711e"
+                "reference": "169a2780ed084d48ac7fe2670af52c8b0f1bc548"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/incube8/codeception-lumen/zipball/ac2988a65582a4ff4f34a70a46004595f1f2711e",
-                "reference": "ac2988a65582a4ff4f34a70a46004595f1f2711e",
+                "url": "https://api.github.com/repos/incube8/codeception-lumen/zipball/169a2780ed084d48ac7fe2670af52c8b0f1bc548",
+                "reference": "169a2780ed084d48ac7fe2670af52c8b0f1bc548",
                 "shasum": ""
             },
             "require": {
@@ -2636,8 +2636,8 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Codeception\\": "src/"
+                "psr-0": {
+                    "Codeception": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2656,7 +2656,7 @@
                 "laravel",
                 "lumen"
             ],
-            "time": "2015-05-08 21:25:45"
+            "time": "2015-05-26 11:57:16"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -2769,16 +2769,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "2.0.16",
+            "version": "2.0.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "934fd03eb6840508231a7f73eb8940cf32c3b66c"
+                "reference": "c4e8e7725e351184a76544634855b8a9c405a6e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/934fd03eb6840508231a7f73eb8940cf32c3b66c",
-                "reference": "934fd03eb6840508231a7f73eb8940cf32c3b66c",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/c4e8e7725e351184a76544634855b8a9c405a6e3",
+                "reference": "c4e8e7725e351184a76544634855b8a9c405a6e3",
                 "shasum": ""
             },
             "require": {
@@ -2827,7 +2827,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-04-11 04:35:00"
+            "time": "2015-05-25 05:11:59"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -3015,16 +3015,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.6.6",
+            "version": "4.6.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "3afe303d873a4d64c62ef84de491b97b006fbdac"
+                "reference": "57bf06dd4eebe2a5ced79a8de71509e7d5c18b25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3afe303d873a4d64c62ef84de491b97b006fbdac",
-                "reference": "3afe303d873a4d64c62ef84de491b97b006fbdac",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/57bf06dd4eebe2a5ced79a8de71509e7d5c18b25",
+                "reference": "57bf06dd4eebe2a5ced79a8de71509e7d5c18b25",
                 "shasum": ""
             },
             "require": {
@@ -3083,7 +3083,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-04-29 15:18:52"
+            "time": "2015-05-25 05:18:18"
         },
         {
             "name": "phpunit/phpunit-mock-objects",

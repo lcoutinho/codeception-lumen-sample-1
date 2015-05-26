@@ -5,3 +5,8 @@
 .idea
 
 tests/_output/*
+dirlist.app
+dirlist.cache
+dirlist.vendor
+documents/*
+documents

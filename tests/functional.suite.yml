@@ -7,3 +7,7 @@
 class_name: FunctionalTester
 modules:
     enabled: [FunctionalHelper, Lumen]
+    config:
+        Lumen:
+            environment_file: .env.testing
+            cleanup: false

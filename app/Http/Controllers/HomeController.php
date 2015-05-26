@@ -16,7 +16,7 @@ use Log;
  * All other methods not fitting in any controllers
  * will be placed here.
  */
-class HomeController extends BaseController
+class HomeController
 {
     /**
      * Hello!
